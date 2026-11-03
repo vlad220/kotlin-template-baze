@@ -1,0 +1,24 @@
+# Сборки и артефакты
+*.apk
+*.aab
+app/build/
+build/
+.gradle/
+.kotlin/
+local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Секреты и локальные ключи — НЕ КОММИТИТЬ
+keystore.properties
+keystore/
+*.jks
+*.keystore
+.env
+
+# Логи
+*.log
